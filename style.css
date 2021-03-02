@@ -84,7 +84,7 @@ header nav li{
 }
 
 .main-wrap3 > div > .quadrato-laterale > img{
-    width: 219px;
+    width: 100%;
     border-radius: 5px;
 
 }
@@ -107,8 +107,8 @@ header nav li{
 
 }
 
-.main-wrap3  div.main.-image > img{
-    width:500px;
+.main-wrap3  div.main-img > img{
+    width:100%;
     border-radius: 5px;
   
 }
@@ -132,7 +132,7 @@ footer{
 
 /* clearfix */
 
-.clearfix:after{
+.clearfix::after{
     content: '';
     clear: both;
     display: table;
