@@ -32,6 +32,7 @@ header > div > img{
 
 header nav a{
     text-decoration: none;
+    color: lightgrey;
 }
 
 header nav li{
@@ -39,6 +40,7 @@ header nav li{
     list-style: none;
     padding: 8px;
     text-transform: uppercase;
+    
     
 }
 
@@ -49,14 +51,15 @@ header nav li{
     background-image: url("img/banner.jpg");
     background-position: center;
     padding: 250px 15px 20px 20px;
+    border-radius: 5px;
 
 }
 /* proprietà terzo wrapper */
 
-.main-wrap2{
+/* .main-wrap2{
     height: 70px;
     background-color: rgb(43, 183, 226);
-    margin-bottom: 0px;
+    margin-bottom: 0px; */
 
 
 }
@@ -70,22 +73,27 @@ header nav li{
     
 }
 
-/* proprietà ultimo container */
-
-.footer-wrap1{
-    height: 50px;
-    background-color: rgb(139, 2, 231);
-    margin-top: 5px;
-
-}
-
 /* quadrati laterali */
 
 .quadrato-laterale{
     width:20%;
     float: left;
     height: 380px;
-    background-color: rgb(43, 183, 226);
+    /* background-color: rgb(43, 183, 226); */
+    
+}
+
+.main-wrap3 > div > .quadrato-laterale > img{
+    width: 219px;
+    border-radius: 5px;
+
+}
+
+.main-img{
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
     
 }
 
@@ -95,8 +103,31 @@ header nav li{
     width:54%;
     float: left;
     height: 380px;
-    background-color: rgb(43, 183, 226);
+    /* background-color: rgb(43, 183, 226); */
 
+}
+
+.main-wrap3  div.main.-image > img{
+    width:500px;
+    border-radius: 5px;
+  
+}
+
+/* proprietà ultimo container */
+
+.footer-wrap1{
+    height: 50px;
+    /* background-color: rgb(139, 2, 231); */
+    margin-top: 5px;
+
+}
+
+footer{
+    text-align: center;
+}
+
+.red-heart{
+    color: red;
 }
 
 /* clearfix */
@@ -124,4 +155,6 @@ header nav li{
 .marg-right{
     margin-right: 3%;
 }
+
+
 
